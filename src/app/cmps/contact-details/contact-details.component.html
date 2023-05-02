@@ -1,0 +1,11 @@
+<section *ngIf="contact" class="contact-details">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbNOpai32_rwcRrMxmpF4sNJG3CIR7yTPv7MD9qK4Ft5OdltMU6DymiRqxXRb0qtgGJoE&usqp=CAU" alt="">
+
+    <h3>{{contact.name}}</h3>
+    <p>{{contact.email}}</p>
+    <p>{{contact.phone}}</p>
+    <button (click)="onBack()"><i class="fa-regular fa-circle-left"></i></button>
+
+    <trunsfer-fund [contact]="contact"></trunsfer-fund>
+    <moves-list [contact]="contact"></moves-list>
+</section>

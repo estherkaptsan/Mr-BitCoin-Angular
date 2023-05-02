@@ -1,0 +1,22 @@
+:host {
+    .home-page {
+        background-color: #0d3f70d6;
+        border-radius: 10px;
+        color: white;
+        font-size: 20px;
+        padding: 40px;
+        height: 500px;
+        // background-image: url('../../imgs/bitcoin.png');
+        // background-repeat: no-repeat;
+        // background-size: inherit;
+        // background-position-x: right;
+        >*{
+
+            align-items: center;
+        }
+
+        p {
+            align-items: center;
+        }
+    }
+}

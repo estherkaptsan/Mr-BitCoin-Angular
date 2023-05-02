@@ -1,0 +1,8 @@
+
+<section class="signup">
+  <h3>Signup</h3>
+    <form (ngSubmit)="onSignup($event)">
+      <input [(ngModel)]="userName" (input)="handleChange($event)" name="userName" id="userName" type="text" placeholder="Enter your name" />
+      <button type="submit">SignUp</button>
+    </form>
+  </section>

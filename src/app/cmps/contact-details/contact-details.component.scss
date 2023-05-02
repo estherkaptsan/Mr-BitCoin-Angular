@@ -1,0 +1,28 @@
+.contact-details {
+   background-color: #1374bec4;
+   border-radius: 5px;
+   padding: 10px;
+   text-align: center;
+   margin: auto;
+
+   >* {
+      padding: 5px;
+   }
+
+   img {
+      width: 150px;
+      border-radius: 50%;
+   }
+
+   h3 {
+      color: #051c38;
+      font-family: cursive;
+   }
+
+   button {
+      border: none;
+      background-color: rgba(240, 248, 255, 0);
+      font-size: 20px;
+      color: white;
+   }
+}

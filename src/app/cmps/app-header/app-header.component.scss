@@ -1,0 +1,21 @@
+
+section {
+    display: flex;
+    flex-direction: row;
+    // gap: 50vw;
+    justify-content: space-between;
+    margin-top: 20px;
+
+
+     nav {
+        display: flex;
+        flex-direction: row;
+        gap: 15px;
+        align-items: center
+    }
+
+    .logo {
+        flex-grow: 1;
+        font-size: 30px;
+    }
+}

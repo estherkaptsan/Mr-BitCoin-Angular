@@ -1,0 +1,14 @@
+<section class="contact-preview">
+    <section class="info">
+        <a routerLink="/contact/{{contact._id}}" class="data">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbNOpai32_rwcRrMxmpF4sNJG3CIR7yTPv7MD9qK4Ft5OdltMU6DymiRqxXRb0qtgGJoE&usqp=CAU" alt="">
+            <section class="data">
+                <p>{{contact.name}}</p>
+            </section>
+        </a>
+        <section class="actions">
+            <button (click)="onRemoveContact()" class="remove-btn">X</button>
+            <a [routerLink]="['/contact/edit', contact._id]">Edit</a>
+        </section>
+    </section>
+</section>
