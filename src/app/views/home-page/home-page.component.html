@@ -1,10 +1,28 @@
-
-<section class="home-page">
-    <!-- <p>home-page </p>
-    <p>{{user | json}} </p> -->
+<!-- <section class="home-page">
+   
     <p>Hello {{user?.name}}!</p>
     <p><i class="fa-solid fa-coins"></i> Coins: {{user?.coins}}</p>
-    <!-- <img src="../../imgs/bitcoin.png" /> -->
-    <!-- <p>Btc: {{}}</p> -->
-    <moves-list></moves-list>
-</section>
+ 
+</section> -->
+
+
+<div class="center">
+
+    <div class="card">
+        <div class="additional">
+            <div class="user-card">
+                <div class="level center">
+                    <i class="fa-solid fa-coins"></i> Coins: {{user?.coins}}
+                </div>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbNOpai32_rwcRrMxmpF4sNJG3CIR7yTPv7MD9qK4Ft5OdltMU6DymiRqxXRb0qtgGJoE&usqp=CAU" alt="">
+            </div>
+            <div class="more-info">
+                <moves-list></moves-list>
+            </div>
+        </div>
+        <div class="general">
+            <h1>Hello {{user?.name}}!</h1>
+            <h1>Welcome to Mr BitCoins</h1>
+        </div>
+    </div>
+</div>
